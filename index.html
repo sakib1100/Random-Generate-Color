@@ -12,7 +12,7 @@
             height: 100vh;
             background-color: black;
         }
-        button {
+        .btn {
             background-color: rgb(8, 8, 8);
             color: white;
             padding: 10px 30px;
@@ -24,7 +24,7 @@
         input{
            margin-top: 20px; 
         }
-        button:hover{
+        .btn:hover{
             background-color:  rgb(255, 255, 255);
             color: black;
     
@@ -34,6 +34,9 @@
         color: white;
         box-shadow: 5px;
         }
+        button{
+            margin-left: 5px;
+        }
     </style>
 </head>
 <body>
@@ -42,9 +45,9 @@
 <div class="Contaienr" >
    <div class="main">
     <h1>Change Background-color</h1>
-    <button id="handleButton">Change Color</button></br>
-    <input id="Selector" type="text" value="#0000" />
-
+    <button class="btn" id="handleButton">Change Color</button></br>
+    <input disabled id="Selector" type="text" value="#0000" /><button id="copyBtn" class="mainz">Copy</button>
+<p id="copyed">Copied</p>
    </div>
 </div>
     
